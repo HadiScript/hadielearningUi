@@ -1,0 +1,13 @@
+# Dependencies
+node_modules/
+npm-debug.log
+yarn-error.log
+
+# Built Files
+build/
+dist/
+*.env
+
+# OS-generated Files
+.DS_Store
+Thumbs.db

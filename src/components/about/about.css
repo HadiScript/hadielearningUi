@@ -1,0 +1,11 @@
+@media (max-width: 500px) {
+  #bgImg {
+    display: none;
+  }
+}
+
+@media (min-width: 500px) {
+  #how {
+    margin-top: 100px;
+  }
+}

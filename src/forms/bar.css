@@ -1,0 +1,18 @@
+.indexedStep {
+  color: white;
+  width: 20px;
+  height: 20px;
+  font-size: 12px;
+  background-color: #0f3f5d;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+/* style={{ color: "white", backgroundColor: "#0f3f5d" }} */
+.indexedStep.accomplished {
+  background-color: #0f3f5d;
+}
+
+
+

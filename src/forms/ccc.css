@@ -1,0 +1,28 @@
+/*  */
+#enrollScreen {
+  height: 110vh;
+}
+
+#forImage {
+  height: 110vh;
+  background-image: url("../../public/assets/images/enroll-1.png");
+  background-size: cover;
+  background-position: center center;
+}
+
+@media only screen and (max-width: 770px) {
+  #forImage {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 650px) {
+  #startForm h2 {
+    font-size: 22px;
+  }
+}
+
+
+#rightCol{
+  /* padding-top: 50px; */
+}
