@@ -80,11 +80,7 @@ const WorkShopDetail = () => {
               <div className="services__list mb-40">
                 <div className="service-text">
                   <h3>Outlines</h3>
-                  <p style={{ fontSize: "18px" }}>
-                    Welcome to the content writing workshop! In this workshop,
-                    we'll cover some essential aspects of content writing that
-                    will help you create engaging and effective content.
-                  </p>
+                  <p style={{ fontSize: "18px" }}>{selected.outlineLine}</p>
                 </div>
                 <ul>
                   {selected.outline.map((x, index) => (

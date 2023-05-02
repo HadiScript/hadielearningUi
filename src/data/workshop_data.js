@@ -14,9 +14,11 @@ export const workshop_data = [
       "Content and SEO",
       "Basic things you need to know about writing quality content. ",
     ],
+    outlineLine : "Welcome to the content writing workshop! In this workshop, we'll cover some essential aspects of content writing that will help you create engaging and effective content.",
     image: "workshop1",
     userImage: "idamah",
     userName: "Idamah Batool",
+    userExp: " 5+ years of experience in content writing",
     dateAndTime: "2nd May 2023 | 6pm",
     breadcrumb: "Words that lead to a Career",
     tags: [
@@ -29,5 +31,43 @@ export const workshop_data = [
     ],
     conclusion:
       "By following these tips, you can create content that engages and resonates with your audience and helps you achieve your content marketing goals. Happy writing!",
+  },
+  {
+    title: "Bring your ideas to life with 3D Max",
+    key: "3d-max",
+    slug: "bring-your-ideas-to-life-with-3d-Max",
+    featuredImage: "",
+    heading1:
+      "Discover the magic of 3D Max for stunning animations and visual effects",
+    content1:
+      "The purpose of a 3D Max workshop is to teach participants how to use 3D Max software effectively and efficiently to create 3D models and animations. These workshops are designed for people who are interested in learning how to use 3D Max, from beginners to more experienced users.",
+    outline: [
+      "Introduction to 3D Max",
+      "Modeling basics",
+      "Material creation",
+      "Lighting and camera setup",
+      "Animation basics",
+      "Rendering",
+    ],
+    outlineLine : "This workshop on 3D Max will cover the fundamental aspects of 3D modeling, including modeling basics, material creation, lighting and camera setup, animation basics, and rendering.",
+    image: "workshop2",
+    userImage: "idamah",
+    userName: "Ali Raza",
+    userExp: "Architect Engineer, Experienced Visualizer",
+    dateAndTime: "4th 𝗠𝗮𝘆 𝟮𝟬𝟮𝟯 | 𝟲𝗽𝗺",
+    breadcrumb: "Bring your ideas to life with 3D Max",
+    tags: [
+      "3D Modeling",
+      "Animation",
+      "Rendering",
+      "Texturing",
+      "3D Printing",
+      "Architectural Visualization",
+      "Character Design",
+      "Product Design",
+      "CAD",
+    ],
+    conclusion:
+      "Participants will gain valuable experience in 3D modeling, animation, and visual effects, as well as project management and creative problem-solving skills that can be applied to various industries.",
   },
 ];

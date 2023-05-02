@@ -89,6 +89,7 @@ const Step4 = ({
             >
               <option value="">Choose</option>
               <option value="content-writing">Content Wrting</option>
+              <option value="3d-max">3D Max</option>
             </select>
           </div>
         )}

@@ -13,6 +13,7 @@ const Item = ({
   user_image,
   name,
   dateAndTime,
+  userExp,
 }) => {
   return (
     <>
@@ -37,9 +38,7 @@ const Item = ({
                   {name}
                 </span>
                 <br />
-                <small style={{ fontSize: "14px" }}>
-                  5+ years of experience in content writing{" "}
-                </small>
+                <small style={{ fontSize: "14px" }}>{userExp}</small>
                 <br />
                 <small style={{ fontSize: "14px" }}>{dateAndTime}</small>
               </div>

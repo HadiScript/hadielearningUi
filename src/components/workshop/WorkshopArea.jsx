@@ -13,7 +13,8 @@ const WorkshopArea = () => {
               <div className="blog__wrapper mr-50">
                 <h2>Available Workshops</h2>
                 <p>
-                Join our hands-on workshops and master the essential digital skills that will help you grow your career or business.
+                  Join our hands-on workshops and master the essential digital
+                  skills that will help you grow your career or business.
                 </p>
                 <br />
                 <br />
@@ -28,6 +29,8 @@ const WorkshopArea = () => {
                     slug={x.slug}
                     user_image="1"
                     name={x.userName}
+                    userExp={x.userExp}
+                    outlineLine={x.outlineLine}
                     dateAndTime={x.dateAndTime}
                     conclusion={x.conclusion}
                     breadcrumb={x.breadcrumb}
